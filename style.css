@@ -1,0 +1,167 @@
+body{
+    box-sizing: border-box;
+    margin: 50px 25px;
+    background-color: #ecf2f8;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+h3{
+    font-weight: 700; 
+    position: relative;
+    z-index: 2;
+}
+
+p{
+    margin: 0;
+    font-size: 13px;
+}
+
+h3~p{
+    opacity: 70%;
+}
+
+.cards{
+    padding: 40px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+    
+}
+
+.Daniel{
+    background-color: #7541c8;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+#quote{
+    position: absolute;
+    right:100px;
+    top:20px;
+    z-index: 1;
+    scale: 1.2;
+}
+.Danielprofile{
+    display: flex;
+}
+.Danielprofile img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Danieldetails{
+    align-self:center;
+}
+
+.Jonathan{
+    background-color: #48556a;
+    color: white;
+}
+.Jonathanprofile{
+    display: flex;
+}
+.Jonathanprofile img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Jonathandetails{
+    align-self:center;
+}
+.Patrick{
+    background-color: #19212e;
+    color: white;
+}
+.Patrickprofile{
+    display: flex;
+}
+.Patrickprofile img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Patrickdetails{
+    align-self:center;
+}
+.Jeanette, .Kira {
+    background-color: #ffffff;
+    color: black;
+}
+.Jeanetteprofile{
+    display: flex;
+}
+.Jeanetteprofile img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Jeanettedetails{
+    align-self:center;
+}
+.Kiraprofile{
+    display: flex;
+}
+.Kiraprofile img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Kiradetails{
+    align-self:center;
+}
+
+.vg{
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+
+.ex{
+    font-size: 1.05rem;
+}
+
+@media (min-width:1200px){
+    .container{
+        display:flex;
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+    .left{
+         flex-basis: 80%; 
+         display: flex;
+         flex-direction: column; 
+         
+    }
+
+    .top-left{
+        display:flex; 
+        flex-basis: 50%;
+    }
+    .Daniel{
+        flex-basis: 75%;
+        margin-right: 25px;
+    }
+    .Jonathan{
+        flex-basis: 25%;
+    }
+    .bottom-left{
+        display:flex; 
+        flex-basis: 50%;
+    }
+    .Jeanette{
+        flex-basis: 25%;
+        margin-right: 25px;
+    }
+    .Patrick{
+        flex-basis: 75%;
+    }
+    
+    .Kira{
+        flex-basis: 15%;  
+        margin-left: 25px;
+    } 
+}
+
+
