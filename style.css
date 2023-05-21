@@ -120,6 +120,7 @@ h3~p{
 
 .ex{
     font-size: 1.05rem;
+    z-index: 2;
 }
 
 @media (min-width:1200px){
